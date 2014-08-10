@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D7533619981106000F0A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533519981106000F0A3B /* Foundation.framework */; };
+		50D7533819981106000F0A3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533719981106000F0A3B /* CoreGraphics.framework */; };
+		50D7533A19981106000F0A3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533919981106000F0A3B /* UIKit.framework */; };
+		50D7534019981106000F0A3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D7533E19981106000F0A3B /* InfoPlist.strings */; };
+		50D7534219981106000F0A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7534119981106000F0A3B /* main.m */; };
+		50D7534619981106000F0A3B /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7534519981106000F0A3B /* BNRAppDelegate.m */; };
+		50D7534819981106000F0A3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D7534719981106000F0A3B /* Images.xcassets */; };
+		50D7534F19981106000F0A3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7534E19981106000F0A3B /* XCTest.framework */; };
+		50D7535019981106000F0A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533519981106000F0A3B /* Foundation.framework */; };
+		50D7535119981106000F0A3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533919981106000F0A3B /* UIKit.framework */; };
+		50D7535919981106000F0A3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D7535719981106000F0A3B /* InfoPlist.strings */; };
+		50D7535B19981106000F0A3B /* BNR_iOS_NerdfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7535A19981106000F0A3B /* BNR_iOS_NerdfeedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D7535219981106000F0A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D7532A19981106000F0A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D7533119981106000F0A3B;
+			remoteInfo = "BNR-iOS-Nerdfeed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D7533219981106000F0A3B /* BNR-iOS-Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BNR-iOS-Nerdfeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D7533519981106000F0A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50D7533719981106000F0A3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50D7533919981106000F0A3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50D7533D19981106000F0A3B /* BNR-iOS-Nerdfeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNR-iOS-Nerdfeed-Info.plist"; sourceTree = "<group>"; };
+		50D7533F19981106000F0A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50D7534119981106000F0A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50D7534319981106000F0A3B /* BNR-iOS-Nerdfeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNR-iOS-Nerdfeed-Prefix.pch"; sourceTree = "<group>"; };
+		50D7534419981106000F0A3B /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		50D7534519981106000F0A3B /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		50D7534719981106000F0A3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50D7534D19981106000F0A3B /* BNR-iOS-NerdfeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BNR-iOS-NerdfeedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D7534E19981106000F0A3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50D7535619981106000F0A3B /* BNR-iOS-NerdfeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNR-iOS-NerdfeedTests-Info.plist"; sourceTree = "<group>"; };
+		50D7535819981106000F0A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50D7535A19981106000F0A3B /* BNR_iOS_NerdfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNR_iOS_NerdfeedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D7532F19981106000F0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7533819981106000F0A3B /* CoreGraphics.framework in Frameworks */,
+				50D7533A19981106000F0A3B /* UIKit.framework in Frameworks */,
+				50D7533619981106000F0A3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D7534A19981106000F0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7534F19981106000F0A3B /* XCTest.framework in Frameworks */,
+				50D7535119981106000F0A3B /* UIKit.framework in Frameworks */,
+				50D7535019981106000F0A3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D7532919981106000F0A3B = {
+			isa = PBXGroup;
+			children = (
+				50D7533B19981106000F0A3B /* BNR-iOS-Nerdfeed */,
+				50D7535419981106000F0A3B /* BNR-iOS-NerdfeedTests */,
+				50D7533419981106000F0A3B /* Frameworks */,
+				50D7533319981106000F0A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D7533319981106000F0A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D7533219981106000F0A3B /* BNR-iOS-Nerdfeed.app */,
+				50D7534D19981106000F0A3B /* BNR-iOS-NerdfeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D7533419981106000F0A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D7533519981106000F0A3B /* Foundation.framework */,
+				50D7533719981106000F0A3B /* CoreGraphics.framework */,
+				50D7533919981106000F0A3B /* UIKit.framework */,
+				50D7534E19981106000F0A3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50D7533B19981106000F0A3B /* BNR-iOS-Nerdfeed */ = {
+			isa = PBXGroup;
+			children = (
+				50D7534419981106000F0A3B /* BNRAppDelegate.h */,
+				50D7534519981106000F0A3B /* BNRAppDelegate.m */,
+				50D7534719981106000F0A3B /* Images.xcassets */,
+				50D7533C19981106000F0A3B /* Supporting Files */,
+			);
+			path = "BNR-iOS-Nerdfeed";
+			sourceTree = "<group>";
+		};
+		50D7533C19981106000F0A3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D7533D19981106000F0A3B /* BNR-iOS-Nerdfeed-Info.plist */,
+				50D7533E19981106000F0A3B /* InfoPlist.strings */,
+				50D7534119981106000F0A3B /* main.m */,
+				50D7534319981106000F0A3B /* BNR-iOS-Nerdfeed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50D7535419981106000F0A3B /* BNR-iOS-NerdfeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D7535A19981106000F0A3B /* BNR_iOS_NerdfeedTests.m */,
+				50D7535519981106000F0A3B /* Supporting Files */,
+			);
+			path = "BNR-iOS-NerdfeedTests";
+			sourceTree = "<group>";
+		};
+		50D7535519981106000F0A3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D7535619981106000F0A3B /* BNR-iOS-NerdfeedTests-Info.plist */,
+				50D7535719981106000F0A3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D7533119981106000F0A3B /* BNR-iOS-Nerdfeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D7535E19981106000F0A3B /* Build configuration list for PBXNativeTarget "BNR-iOS-Nerdfeed" */;
+			buildPhases = (
+				50D7532E19981106000F0A3B /* Sources */,
+				50D7532F19981106000F0A3B /* Frameworks */,
+				50D7533019981106000F0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BNR-iOS-Nerdfeed";
+			productName = "BNR-iOS-Nerdfeed";
+			productReference = 50D7533219981106000F0A3B /* BNR-iOS-Nerdfeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D7534C19981106000F0A3B /* BNR-iOS-NerdfeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D7536119981106000F0A3B /* Build configuration list for PBXNativeTarget "BNR-iOS-NerdfeedTests" */;
+			buildPhases = (
+				50D7534919981106000F0A3B /* Sources */,
+				50D7534A19981106000F0A3B /* Frameworks */,
+				50D7534B19981106000F0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D7535319981106000F0A3B /* PBXTargetDependency */,
+			);
+			name = "BNR-iOS-NerdfeedTests";
+			productName = "BNR-iOS-NerdfeedTests";
+			productReference = 50D7534D19981106000F0A3B /* BNR-iOS-NerdfeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D7532A19981106000F0A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kelvin;
+				TargetAttributes = {
+					50D7534C19981106000F0A3B = {
+						TestTargetID = 50D7533119981106000F0A3B;
+					};
+				};
+			};
+			buildConfigurationList = 50D7532D19981106000F0A3B /* Build configuration list for PBXProject "BNR-iOS-Nerdfeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50D7532919981106000F0A3B;
+			productRefGroup = 50D7533319981106000F0A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D7533119981106000F0A3B /* BNR-iOS-Nerdfeed */,
+				50D7534C19981106000F0A3B /* BNR-iOS-NerdfeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D7533019981106000F0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7534019981106000F0A3B /* InfoPlist.strings in Resources */,
+				50D7534819981106000F0A3B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D7534B19981106000F0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7535919981106000F0A3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D7532E19981106000F0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7534219981106000F0A3B /* main.m in Sources */,
+				50D7534619981106000F0A3B /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D7534919981106000F0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7535B19981106000F0A3B /* BNR_iOS_NerdfeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D7535319981106000F0A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D7533119981106000F0A3B /* BNR-iOS-Nerdfeed */;
+			targetProxy = 50D7535219981106000F0A3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D7533E19981106000F0A3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D7533F19981106000F0A3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50D7535719981106000F0A3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D7535819981106000F0A3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D7535C19981106000F0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		50D7535D19981106000F0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D7535F19981106000F0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50D7536019981106000F0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50D7536219981106000F0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNR-iOS-Nerdfeed.app/BNR-iOS-Nerdfeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BNR-iOS-NerdfeedTests/BNR-iOS-NerdfeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50D7536319981106000F0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNR-iOS-Nerdfeed.app/BNR-iOS-Nerdfeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNR-iOS-Nerdfeed/BNR-iOS-Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "BNR-iOS-NerdfeedTests/BNR-iOS-NerdfeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D7532D19981106000F0A3B /* Build configuration list for PBXProject "BNR-iOS-Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D7535C19981106000F0A3B /* Debug */,
+				50D7535D19981106000F0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D7535E19981106000F0A3B /* Build configuration list for PBXNativeTarget "BNR-iOS-Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D7535F19981106000F0A3B /* Debug */,
+				50D7536019981106000F0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50D7536119981106000F0A3B /* Build configuration list for PBXNativeTarget "BNR-iOS-NerdfeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D7536219981106000F0A3B /* Debug */,
+				50D7536319981106000F0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D7532A19981106000F0A3B /* Project object */;
+}
