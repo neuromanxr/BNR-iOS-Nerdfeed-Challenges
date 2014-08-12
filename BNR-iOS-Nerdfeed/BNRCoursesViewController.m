@@ -76,6 +76,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // gold challenge ch21
+    
     BNRCoursesCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BNRCoursesCell" forIndexPath:indexPath];
     
     NSDictionary *courses = self.courses[indexPath.row];
@@ -92,6 +94,8 @@
     }
     
     return cell;
+    
+    // gold challenge ch21 end
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
