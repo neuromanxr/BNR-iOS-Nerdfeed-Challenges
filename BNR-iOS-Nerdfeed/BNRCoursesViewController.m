@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Kelvin. All rights reserved.
 //
 
+#import "BNRCoursesCell.h"
 #import "BNRCoursesViewController.h"
 #import "BNRWebViewController.h"
 
@@ -60,7 +61,12 @@
 {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    UINib *nib = [UINib nibWithNibName:@"BNRCoursesCell" bundle:nil];
+    
+    // register this NIB, which contains the cell
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"BNRCoursesCell"];
+    
+//    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"BNRCoursesCell"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -70,10 +76,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
+    BNRCoursesCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BNRCoursesCell" forIndexPath:indexPath];
     
     NSDictionary *courses = self.courses[indexPath.row];
-    cell.textLabel.text = courses[@"title"];
+    NSDictionary *detail = [courses[@"upcoming"] objectAtIndex:0];
+    NSLog(@"upcoming %@", detail);
+
+    if (detail) {
+        cell.courseTitle.text = courses[@"title"];
+        cell.startDate.text = detail[@"start_date"];
+        cell.endDate.text = detail[@"end_date"];
+        cell.instructors.text = detail[@"instructors"];
+    } else {
+        cell.courseTitle.text = @"No courses";
+    }
     
     return cell;
 }

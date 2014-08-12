@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="lgd-Yf-Fhk" customClass="BNRCoursesCell">
+            <rect key="frame" x="0.0" y="0.0" width="522" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lgd-Yf-Fhk" id="gLD-px-biM">
+                <rect key="frame" x="0.0" y="0.0" width="522" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCz-fC-Kbh">
+                        <rect key="frame" x="7" y="6" width="221" height="36"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="221" id="NRy-MK-t1J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Startdate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwG-mo-2lj">
+                        <rect key="frame" x="236" y="0.0" width="100" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="n3B-f1-Qiv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enddate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc7-eg-ci7">
+                        <rect key="frame" x="236" y="28" width="100" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="LQb-OG-cPh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1n-VN-fSg">
+                        <rect key="frame" x="344" y="0.0" width="158" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="158" id="8GL-YR-RV0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbC-Wh-ZXp">
+                        <rect key="frame" x="344" y="28" width="158" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="158" id="NDP-BT-tbn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OCz-fC-Kbh" firstAttribute="leading" secondItem="gLD-px-biM" secondAttribute="leading" constant="7" id="KJC-Si-A0U"/>
+                    <constraint firstItem="WwG-mo-2lj" firstAttribute="top" secondItem="gLD-px-biM" secondAttribute="top" id="Lfq-QB-CH5"/>
+                    <constraint firstItem="zc7-eg-ci7" firstAttribute="top" secondItem="WwG-mo-2lj" secondAttribute="bottom" constant="7" id="Qiy-bf-DBl"/>
+                    <constraint firstItem="E1n-VN-fSg" firstAttribute="top" secondItem="gLD-px-biM" secondAttribute="top" id="QkW-bS-Uke"/>
+                    <constraint firstAttribute="bottom" secondItem="zbC-Wh-ZXp" secondAttribute="bottom" id="Vmf-pw-xlS"/>
+                    <constraint firstItem="OCz-fC-Kbh" firstAttribute="top" secondItem="gLD-px-biM" secondAttribute="top" constant="6" id="Wgg-5T-mSq"/>
+                    <constraint firstItem="zbC-Wh-ZXp" firstAttribute="top" secondItem="E1n-VN-fSg" secondAttribute="bottom" constant="7" id="a9P-QB-GVh"/>
+                    <constraint firstItem="zc7-eg-ci7" firstAttribute="top" secondItem="WwG-mo-2lj" secondAttribute="bottom" constant="7" id="be5-re-vko"/>
+                    <constraint firstAttribute="trailing" secondItem="E1n-VN-fSg" secondAttribute="trailing" constant="20" id="lU0-hW-kuq"/>
+                    <constraint firstAttribute="bottom" secondItem="zc7-eg-ci7" secondAttribute="bottom" id="tnP-ZI-1Pz"/>
+                    <constraint firstItem="zbC-Wh-ZXp" firstAttribute="leading" secondItem="zc7-eg-ci7" secondAttribute="trailing" constant="8" id="wBc-3F-59H"/>
+                    <constraint firstItem="E1n-VN-fSg" firstAttribute="leading" secondItem="WwG-mo-2lj" secondAttribute="trailing" constant="8" id="wME-Py-yed"/>
+                    <constraint firstAttribute="trailing" secondItem="zbC-Wh-ZXp" secondAttribute="trailing" constant="20" id="wRw-V4-TsJ"/>
+                    <constraint firstAttribute="bottom" secondItem="OCz-fC-Kbh" secondAttribute="bottom" constant="7" id="xgF-bq-iA1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="courseTitle" destination="OCz-fC-Kbh" id="QV1-wN-bdC"/>
+                <outlet property="endDate" destination="zc7-eg-ci7" id="YHK-uA-wKV"/>
+                <outlet property="instructors" destination="zbC-Wh-ZXp" id="LCO-NE-3vT"/>
+                <outlet property="location" destination="E1n-VN-fSg" id="31O-Ql-lCj"/>
+                <outlet property="startDate" destination="WwG-mo-2lj" id="xFj-bN-75p"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

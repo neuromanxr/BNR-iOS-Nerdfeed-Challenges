@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5008D3A71999C7AD009ABA56 /* BNRCoursesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5008D3A61999C7AD009ABA56 /* BNRCoursesCell.xib */; };
+		5008D3AA1999C7CD009ABA56 /* BNRCoursesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5008D3A91999C7CD009ABA56 /* BNRCoursesCell.m */; };
 		50CABD561998172800ADA342 /* BNRCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CABD551998172800ADA342 /* BNRCoursesViewController.m */; };
 		50CABD591998375800ADA342 /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CABD581998375800ADA342 /* BNRWebViewController.m */; };
 		50D7533619981106000F0A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533519981106000F0A3B /* Foundation.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5008D3A61999C7AD009ABA56 /* BNRCoursesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRCoursesCell.xib; sourceTree = "<group>"; };
+		5008D3A81999C7CD009ABA56 /* BNRCoursesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCoursesCell.h; sourceTree = "<group>"; };
+		5008D3A91999C7CD009ABA56 /* BNRCoursesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesCell.m; sourceTree = "<group>"; };
 		50CABD541998172800ADA342 /* BNRCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCoursesViewController.h; sourceTree = "<group>"; };
 		50CABD551998172800ADA342 /* BNRCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesViewController.m; sourceTree = "<group>"; };
 		50CABD571998375800ADA342 /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
@@ -119,6 +124,9 @@
 				50CABD551998172800ADA342 /* BNRCoursesViewController.m */,
 				50CABD571998375800ADA342 /* BNRWebViewController.h */,
 				50CABD581998375800ADA342 /* BNRWebViewController.m */,
+				5008D3A81999C7CD009ABA56 /* BNRCoursesCell.h */,
+				5008D3A91999C7CD009ABA56 /* BNRCoursesCell.m */,
+				5008D3A61999C7AD009ABA56 /* BNRCoursesCell.xib */,
 				50D7534719981106000F0A3B /* Images.xcassets */,
 				50D7533C19981106000F0A3B /* Supporting Files */,
 			);
@@ -232,6 +240,7 @@
 			files = (
 				50D7534019981106000F0A3B /* InfoPlist.strings in Resources */,
 				50D7534819981106000F0A3B /* Images.xcassets in Resources */,
+				5008D3A71999C7AD009ABA56 /* BNRCoursesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 				50CABD591998375800ADA342 /* BNRWebViewController.m in Sources */,
 				50D7534219981106000F0A3B /* main.m in Sources */,
 				50D7534619981106000F0A3B /* BNRAppDelegate.m in Sources */,
+				5008D3AA1999C7CD009ABA56 /* BNRCoursesCell.m in Sources */,
 				50CABD561998172800ADA342 /* BNRCoursesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
