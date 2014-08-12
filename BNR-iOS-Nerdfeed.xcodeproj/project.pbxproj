@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50CABD561998172800ADA342 /* BNRCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CABD551998172800ADA342 /* BNRCoursesViewController.m */; };
+		50CABD591998375800ADA342 /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CABD581998375800ADA342 /* BNRWebViewController.m */; };
 		50D7533619981106000F0A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533519981106000F0A3B /* Foundation.framework */; };
 		50D7533819981106000F0A3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533719981106000F0A3B /* CoreGraphics.framework */; };
 		50D7533A19981106000F0A3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7533919981106000F0A3B /* UIKit.framework */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50CABD541998172800ADA342 /* BNRCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCoursesViewController.h; sourceTree = "<group>"; };
+		50CABD551998172800ADA342 /* BNRCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesViewController.m; sourceTree = "<group>"; };
+		50CABD571998375800ADA342 /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		50CABD581998375800ADA342 /* BNRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
 		50D7533219981106000F0A3B /* BNR-iOS-Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BNR-iOS-Nerdfeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D7533519981106000F0A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50D7533719981106000F0A3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +115,10 @@
 			children = (
 				50D7534419981106000F0A3B /* BNRAppDelegate.h */,
 				50D7534519981106000F0A3B /* BNRAppDelegate.m */,
+				50CABD541998172800ADA342 /* BNRCoursesViewController.h */,
+				50CABD551998172800ADA342 /* BNRCoursesViewController.m */,
+				50CABD571998375800ADA342 /* BNRWebViewController.h */,
+				50CABD581998375800ADA342 /* BNRWebViewController.m */,
 				50D7534719981106000F0A3B /* Images.xcassets */,
 				50D7533C19981106000F0A3B /* Supporting Files */,
 			);
@@ -240,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CABD591998375800ADA342 /* BNRWebViewController.m in Sources */,
 				50D7534219981106000F0A3B /* main.m in Sources */,
 				50D7534619981106000F0A3B /* BNRAppDelegate.m in Sources */,
+				50CABD561998172800ADA342 /* BNRCoursesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +452,7 @@
 				50D7536019981106000F0A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50D7536119981106000F0A3B /* Build configuration list for PBXNativeTarget "BNR-iOS-NerdfeedTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +461,7 @@
 				50D7536319981106000F0A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
