@@ -41,6 +41,24 @@
 //    [self.view addSubview:self.toolbar];
 }
 
+- (void)splitViewController:(UISplitViewController *)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)pc
+{
+    // if this bar button item does not have a title, it will not appear at all
+    barButtonItem.title = @"Courses";
+    
+    // take this bar button item and put it on the left side of the nav item
+    self.navigationItem.leftBarButtonItem = barButtonItem;
+}
+
+- (void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem
+{
+    // remove the bar button item from the navigation item
+    // double check that it is the correct button, even though we know it is
+    if (barButtonItem == self.navigationItem.leftBarButtonItem) {
+        self.navigationItem.leftBarButtonItem = nil;
+    }
+}
+
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
     [self updateToolbar];
